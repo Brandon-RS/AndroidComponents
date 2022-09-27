@@ -6,58 +6,28 @@
   android:layout_height="match_parent"
   tools:context=".SpinnerActivity">
 
-  <EditText
-    android:id="@+id/txtN1"
-    android:layout_width="300dp"
-    android:layout_height="50dp"
-    android:layout_marginTop="50dp"
-    android:autofillHints=""
-    android:ems="10"
-    android:hint="@string/txtN1"
-    android:inputType="number"
-    android:textColorHint="#757575"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.495"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent" />
-
-  <EditText
-    android:id="@+id/txtN2"
-    android:layout_width="300dp"
-    android:layout_height="50dp"
-    android:layout_marginTop="50dp"
-    android:autofillHints=""
-    android:ems="10"
-    android:hint="@string/txtN2"
-    android:inputType="number"
-    android:textColorHint="#757575"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.495"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/txtN1" />
-
   <Button
     android:id="@+id/btnCalculate"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_marginTop="170dp"
+    android:layout_marginBottom="50dp"
     android:onClick="calculate"
     android:text="@string/btnCalculate"
+    app:layout_constraintBottom_toTopOf="@+id/txtResult"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/spinner" />
+    app:layout_constraintStart_toStartOf="parent" />
 
   <TextView
     android:id="@+id/txtResult"
     android:layout_width="300dp"
     android:layout_height="55dp"
-    android:layout_marginTop="50dp"
+    android:layout_marginBottom="20dp"
     android:gravity="center"
     android:text="@string/txtResult"
+    app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHorizontal_bias="0.497"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/btnCalculate" />
+    app:layout_constraintStart_toStartOf="parent" />
 
   <Spinner
     android:id="@+id/spinner"
@@ -67,6 +37,16 @@
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHorizontal_bias="0.495"
     app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/txtN2" />
+    app:layout_constraintTop_toTopOf="parent" />
+
+  <Spinner
+    android:id="@+id/spinner2"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="50dp"
+    android:entries="@array/planets_array"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/spinner" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
