@@ -1,0 +1,24 @@
+<resources>
+  <string name="app_name">Components</string>
+
+  <!-- Main Activity -->
+
+  <string name="btnRadioButton">RadioButton</string>
+  <string name="btnSpinner">Spinner</string>
+  <string name="other">Other</string>
+
+
+  <!-- RadioButton Activity -->
+
+  <string name="txtN1">First Number</string>
+  <string name="txtN2">Second Number</string>
+
+  <string name="rbSum">Sum</string>
+  <string name="rbSubt">Subtraction</string>
+  <string name="rbMulti">Multiplication</string>
+  <string name="rbDiv">Division</string>
+
+  <string name="btnCalculate">Calculate</string>
+  <string name="txtResult">Result</string>
+
+</resources>
