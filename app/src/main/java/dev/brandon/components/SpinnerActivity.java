@@ -25,8 +25,8 @@ public class SpinnerActivity extends AppCompatActivity {
 
     spOperations = findViewById(R.id.spinner);
 
-    ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, operations);
-    adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+    ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.custom_spinner, operations);
+//    adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
     this.spOperations.setAdapter(adapter);
 
     SpinnerListener listener = new SpinnerListener();

@@ -24,4 +24,9 @@ public class MainActivity extends AppCompatActivity {
     startActivity(i);
   }
 
+  public void goToCheck(View v) {
+    Intent i = new Intent(this, CheckBoxActivity.class);
+    startActivity(i);
+  }
+
 }

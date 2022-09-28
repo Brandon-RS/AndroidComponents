@@ -4,37 +4,48 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  tools:context=".MainActivity">
+  tools:context=".CheckBoxActivity">
+
+  <Button
+    android:id="@+id/button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="100dp"
+    android:onClick="calculate"
+    android:text="@string/btnCheck"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
   <LinearLayout
+    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="50dp"
+    android:layout_marginTop="100dp"
     android:orientation="vertical"
-    android:paddingHorizontal="40dp"
-    app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent">
 
-    <Button
-      android:id="@+id/button2"
+    <CheckBox
+      android:id="@+id/checkBox"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:onClick="goToRadioButton"
-      android:text="@string/btnRadioButton" />
+      android:text="@string/rbMulti" />
 
-    <Button
-      android:id="@+id/button3"
+    <CheckBox
+      android:id="@+id/checkBox2"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:onClick="goToSpinner"
-      android:text="@string/btnSpinner" />
+      android:text="@string/rbDiv" />
 
-    <Button
-      android:id="@+id/button4"
+    <CheckBox
+      android:id="@+id/checkBox3"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:onClick="goToCheck"
-      android:text="@string/btnCheckAc" />
+      android:text="@string/rbSubt" />
+
   </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

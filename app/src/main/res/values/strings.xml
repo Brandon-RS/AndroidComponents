@@ -5,6 +5,7 @@
 
   <string name="btnRadioButton">RadioButton</string>
   <string name="btnSpinner">Spinner</string>
+  <string name="btnCheckAc">CheckBox</string>
   <string name="other">Other</string>
 
 
@@ -34,5 +35,9 @@
     <item>Uranus</item>
     <item>Neptune</item>
   </string-array>
+
+  <!-- ChechBox Activity -->
+  <string name="btnCheck">Selected</string>
+
 
 </resources>
