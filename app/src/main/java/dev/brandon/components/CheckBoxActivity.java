@@ -32,7 +32,6 @@ public class CheckBoxActivity extends AppCompatActivity {
       Toast.makeText(this, "Third Checked", Toast.LENGTH_SHORT).show();
     }
 
-
   }
 
 }

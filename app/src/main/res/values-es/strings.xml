@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Componentes</string>
+
+  <!-- Main Activity -->
+
+  <string name="btnRadioButton">Radio Boton</string>
+  <string name="btnSpinner">Desplegable</string>
+  <string name="btnCheckAc">Caja seleccionable</string>
+  <string name="other">Otro</string>
+
+
+  <!-- RadioButton Activity -->
+
+  <string name="txtN1">Primer número</string>
+  <string name="txtN2">Segundo número</string>
+
+  <string name="rbSum">Suma</string>
+  <string name="rbSubt">Resta</string>
+  <string name="rbMulti">Multiplicacion</string>
+  <string name="rbDiv">Division</string>
+
+  <string name="btnCalculate">Calcular</string>
+  <string name="txtResult">Resultado</string>
+
+  <!-- Spinner Activity -->
+
+  <string-array name="operations" >
+    <item>Suma</item>
+    <item>Resta</item>
+    <item>Multiplicacion</item>
+    <item>Division</item>
+  </string-array>
+
+
+  <string-array name="planets_array">
+    <item>Mercurio</item>
+    <item>Venus</item>
+    <item>Tierra</item>
+    <item>Marte</item>
+    <item>Jupiter</item>
+    <item>Saturno</item>
+    <item>Urano</item>
+    <item>Neptuno</item>
+  </string-array>
+
+  <!-- ChechBox Activity -->
+  <string name="btnCheck">Seleccionado</string>
+
+
+</resources>
