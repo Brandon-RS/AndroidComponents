@@ -17,24 +17,31 @@
     app:layout_constraintTop_toTopOf="parent">
 
     <Button
-      android:id="@+id/button2"
+      android:id="@+id/button1"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:onClick="goToRadioButton"
       android:text="@string/btnRadioButton" />
 
     <Button
-      android:id="@+id/button3"
+      android:id="@+id/button2"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:onClick="goToSpinner"
       android:text="@string/btnSpinner" />
 
     <Button
-      android:id="@+id/button4"
+      android:id="@+id/button3"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:onClick="goToCheck"
       android:text="@string/btnCheckAc" />
+
+    <Button
+      android:id="@+id/button4"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="goToListView"
+      android:text="@string/btnListView" />
   </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

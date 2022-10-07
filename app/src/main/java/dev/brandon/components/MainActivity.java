@@ -29,4 +29,9 @@ public class MainActivity extends AppCompatActivity {
     startActivity(i);
   }
 
+  public void goToListView(View v) {
+    Intent i = new Intent(this, ListViewActivity.class);
+    startActivity(i);
+  }
+
 }

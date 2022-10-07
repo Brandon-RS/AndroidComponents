@@ -6,6 +6,7 @@
   <string name="btnRadioButton">RadioButton</string>
   <string name="btnSpinner">Spinner</string>
   <string name="btnCheckAc">CheckBox</string>
+  <string name="btnListView">ListView</string>
   <string name="other">Other</string>
 
 
@@ -24,7 +25,7 @@
 
   <!-- Spinner Activity -->
 
-  <string-array name="operations" >
+  <string-array name="operations">
     <item>Sum</item>
     <item>Subtraction</item>
     <item>Multiplication</item>
@@ -45,5 +46,8 @@
   <!-- ChechBox Activity -->
   <string name="btnCheck">Selected</string>
 
+  <!-- List View Activity -->
+  <string name="etAdd">Enter item name to add in its</string>
+  <string name="btnAdd">Add</string>
 
 </resources>
